@@ -32,7 +32,6 @@ public class ApiListApplication implements ApplicationRunner {
 	public void run(ApplicationArguments args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("請輸入Swagger的api-docs的JSON檔案絕對路徑:");
-		// C:\Users\hyt\Desktop\ApiList\RES\RES_API.txt
 		String absolutePath = scanner.next();
 
 		System.out.println("輸入的路徑為: " + absolutePath);
